@@ -1,0 +1,21 @@
+Script started on 2021-09-24 15:24:55-0400
+jsherloc@odd33:~/2400/Labs/lab5$ ./a.out
+Enter the high, or enter -100 to quit: 60
+Enter the low, or enter -100 to quit: 50
+Enter the high, or enter -100 to quit: 70
+Enter the low, or enter -100 to quit: 40
+Enter the high, or enter -100 to quit: 80
+Enter the low, or enter -100 to quit: 30
+Enter the high, or enter -100 to quit: 90
+Enter the low, or enter -100 to quit: 20
+Enter the high, or enter -100 to quit: 100
+Enter the low, or enter -100 to quit: 10
+Enter the high, or enter -100 to quit: -100
+Enter the low, or enter -100 to quit: -100
+Number of days: 5
+Highest temperature: 100
+Lowest temperature: 10
+jsherloc@odd33:~/2400/Labs/lab5$ exit
+exit
+
+Script done on 2021-09-24 15:26:06-0400
