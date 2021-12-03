@@ -1,0 +1,19 @@
+
+CFLAGS = -Wall -std=c++11
+CC = g++
+
+main: main.o my_int.out
+    g++ -Wall main.o my_int.o -o main
+
+a.out: main.o my_int.out
+    $ (CC) $ (CFLAGS) my_int.o main.o
+
+my_int.o: my_int.cc my_int.h
+    $ (CC) -c $ (CFLAGS) my_int.cc
+
+main.o: main.cc my_int.h
+    $ (CC) -c $ (CFLAGS) main.cc
+
+
+clean:
+    rm -f my_int.o main.o a.out
